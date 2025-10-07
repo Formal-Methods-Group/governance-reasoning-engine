@@ -1,4 +1,4 @@
-Unified Governance Knowledge Representation and Reasoning Framework implemented in MeTTa language for cognitive computations: https://metta-lang.dev/
+Unified Governance Knowledge Representation and Reasoning Framework implemented in [MeTTa language for cognitive computations](https://metta-lang.dev/).
 
 Basis: a first-order logical framework for Natural Language Semantics massively grounded on the notion of reification. 
 
