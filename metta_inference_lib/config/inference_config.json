@@ -1,0 +1,97 @@
+{
+  "entityMappings": {
+    "soa_ALEXANDRA_MAERSK": "ALEXANDRA MÆRSK",
+    "soa_LAURA_MAERSK": "LAURA MÆRSK",
+    "soa_EMMA_MAERSK": "EMMA MÆRSK",
+    "soa_MICT": "MICT Smart Port",
+    "soa_sptMICT": "MICT Smart Port Treasury",
+    "soa_EU": "European Union",
+    "soa_MiCA": "EU MiCA Regulation"
+  },
+  
+  "specialCharacters": {
+    "MAERSK": "MÆRSK",
+    "AERSK": "ÆRSK",
+    "MOLLER": "MØLLER"
+  },
+  
+  "actionMappings": {
+    "soaMoor": {
+      "pattern": "moor",
+      "baseForm": "moor",
+      "presentTense": "moors",
+      "pastTense": "moored"
+    },
+    "soaPay": {
+      "pattern": "pay",
+      "baseForm": "pay",
+      "presentTense": "pays",
+      "pastTense": "paid"
+    },
+    "soaArrive": {
+      "pattern": "arrive",
+      "baseForm": "arrive",
+      "presentTense": "arrives",
+      "pastTense": "arrived"
+    },
+    "soaDock": {
+      "pattern": "dock",
+      "baseForm": "dock",
+      "presentTense": "docks",
+      "pastTense": "docked"
+    },
+    "soaDeliver": {
+      "pattern": "deliver",
+      "baseForm": "deliver",
+      "presentTense": "delivers",
+      "pastTense": "delivered"
+    }
+  },
+  
+  "instrumentMappings": {
+    "soa_USDS": "USDS (US Dollar Stablecoin)",
+    "soa_INRS": "INRS (Indian Rupee Stablecoin)",
+    "soa_USD": "USD",
+    "soa_EUR": "EUR",
+    "soa_INR": "INR"
+  },
+  
+  "contradictionTemplates": {
+    "existence": "Contradiction: {entity} cannot both {action1} and {action2}",
+    "payment_instrument": "Contradiction: {entity} declared payment in {instrument1} but {instrument2} is required",
+    "action_negation": "Contradiction: {entity} cannot both {action} and not {action} at the same time",
+    "state_conflict": "Logical contradiction: {entity1} implies {state1} while {entity2} implies {state2}"
+  },
+  
+  "conflictTemplates": {
+    "regulatory": "{entity} faces a conflict: {regulation1} prohibits {action} while {regulation2} requires it",
+    "payment_regulation": "Regulatory conflict: {regulation1} prohibits {instrument1} usage while {regulation2} requires {instrument2}-only payments",
+    "obligation_conflict": "Conflicting obligations: {entity} must {action1} per {rule1} but cannot {action2} per {rule2}"
+  },
+  
+  "violationTemplates": {
+    "necessary": "The {rule} must be violated due to {reason}",
+    "forced": "{entity} is forced to violate {rule} because {constraint}",
+    "unavoidable": "Unavoidable violation: {rule} cannot be satisfied due to {conflict}"
+  },
+  
+  "complianceTemplates": {
+    "fulfilled": "{entity} successfully fulfills {obligation} by {action}",
+    "satisfied": "Requirement {requirement} is satisfied by {entity} through {method}",
+    "met": "{entity} meets {obligation} requirements"
+  },
+  
+  "patternRecognition": {
+    "useStrictMatching": false,
+    "enableFuzzyMatching": true,
+    "fuzzyThreshold": 0.85,
+    "enableSemanticGrouping": true
+  },
+  
+  "outputSettings": {
+    "includeRawExpressions": false,
+    "groupContradictionPairs": true,
+    "showInferenceChain": true,
+    "highlightCriticalIssues": true
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "hyperon-experimental-main"]
+	path = hyperon-experimental-main
+	url = https://github.com/trueagi-io/hyperon-experimental.git

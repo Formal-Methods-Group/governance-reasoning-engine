@@ -1,0 +1,49 @@
+# Git files
+.git
+.gitignore
+
+# Build artifacts
+**/target/
+**/build/
+**/*.o
+**/*.so
+**/*.a
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Documentation
+*.md
+docs/
+mkdocs.yml
+
+# Test files
+**/tests/
+**/test_*/
+integration_tests/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride

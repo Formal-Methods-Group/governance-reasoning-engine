@@ -1,0 +1,3 @@
+add_executable(test_module_loader test_module_loader.cpp)
+target_link_libraries(test_module_loader PRIVATE metta_inference_core)
+add_test(NAME test_module_loader COMMAND test_module_loader)

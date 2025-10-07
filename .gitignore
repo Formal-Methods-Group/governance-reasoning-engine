@@ -1,0 +1,36 @@
+# Build artifacts
+target/
+build/
+*.so
+*.dylib
+*.dll
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Cargo
+Cargo.lock
+debug/
+release/
+
+# Metta specific
+*.metta.bak
+metta_inference_lib/build/

@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  governance-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: governance-reasoning-engine:latest
+    container_name: governance-engine
+    volumes:
+      # Mount local workspace for development
+      - ./workspace:/workspace
+      # Mount metta files for easy modification
+      - ./base:/app/base:ro
+      - ./example:/app/example:ro
+      - ./knowledge:/app/knowledge:ro
+      - ./reason:/app/reason:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+    command: /bin/bash
+    
+  # Optional: Run metta CLI directly
+  metta-cli:
+    image: governance-reasoning-engine:latest
+    container_name: metta-cli
+    volumes:
+      - ./workspace:/workspace
+      - ./base:/app/base:ro
+      - ./example:/app/example:ro
+      - ./knowledge:/app/knowledge:ro
+      - ./reason:/app/reason:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+    entrypoint: ["/usr/local/bin/metta_cli"]
+    command: ["--help"]
+    profiles:
+      - cli
