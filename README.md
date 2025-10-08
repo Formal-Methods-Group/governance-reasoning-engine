@@ -20,7 +20,7 @@ Built and tested on macOS 15.5 ARM.
 
 > **⚠️ Memory Requirements**: This Docker image requires significant memory allocation (16GB+ recommended). Some examples, particularly `example/4_mututally_exclusive_detect.metta`, are memory-intensive and may be killed if insufficient memory is available.
 
-> **Note**: Pretty output formatting is very much work in progress. Using the `-r` or `--raw` flag is recommended for reliable output.
+> **Note**: Pretty output formatting is very much work in progress. Using `-r` or `--raw` flag is recommended.
 
 For 2_smart_port_example.metta example case run 
 
