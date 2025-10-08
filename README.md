@@ -30,7 +30,7 @@ docker run --rm governance-reasoning-engine:latest metta_cli -r /app/example/2_s
 
 ## Road to Gradual Governance Automation. Big picture
 
-<img width="3624" height="7730" alt="PVL_scheme_10 25" src="https://github.com/user-attachments/assets/106c4eb4-3b70-4139-ba0f-5c2a010e037c" />
+<img width="3624" height="7730" alt="__1" src="https://github.com/user-attachments/assets/6e5ed383-9c3e-48b7-aa57-0934a5e58903" />
 
 ## [Knowledge Representation](https://github.com/Formal-Methods-Group/governance-reasoning-engine/tree/main/knowledge)
 
@@ -44,10 +44,10 @@ docker run --rm governance-reasoning-engine:latest metta_cli -r /app/example/2_s
 
 ## [example/1_stakeholder_lying_detect.metta](https://github.com/Formal-Methods-Group/governance-reasoning-engine/blob/main/example/1_stakeholder_lying_detect.metta)
 
-<img width="2253" height="5727" alt="PVL_port_1_scheme_10 25" src="https://github.com/user-attachments/assets/40154d08-2d53-43ad-b47d-603f868ddf22" />
+<img width="2253" height="5727" alt="PVL_port_1_scheme_10 25" src="https://github.com/user-attachments/assets/1f72b304-569e-465d-8301-860b9119dcad" />
 
 
 ## [example/2_smart_port_example.metta](https://github.com/Formal-Methods-Group/governance-reasoning-engine/blob/main/example/2_smart_port_example.metta)
 
-<img width="2253" height="5727" alt="PVL_port_2_scheme_10 25" src="https://github.com/user-attachments/assets/19caebff-9c0c-49b7-b8be-5d6c75fd2b08" />
+<img width="2253" height="5727" alt="_2" src="https://github.com/user-attachments/assets/3ad54bfb-190f-41c1-8f00-844532c01f4f" />
 
