@@ -18,4 +18,22 @@ Image: https://hub.docker.com/r/pvl8/governance-reasoning-engine
 
 Built and tested on macOS 15.5 ARM.
 
-## Walkthroughs
+> **⚠️ Memory Requirements**: This Docker image requires significant memory allocation (16GB+ recommended). Some examples, particularly `example/4_mututally_exclusive_detect.metta`, are memory-intensive and may be killed if insufficient memory is available.
+
+> **Note**: Pretty output formatting is very much work in progress. Using the `-r` or `--raw` flag is recommended for reliable output.
+
+For 2_smart_port_example.metta example case run 
+
+```
+docker run --rm governance-reasoning-engine:latest metta_cli -r /app/example/2_smart_port_example.metta
+```
+
+## Road to Gradual Governance Automation. Big picture
+
+## [Knowledge Representation](https://github.com/Formal-Methods-Group/governance-reasoning-engine/tree/main/knowledge)
+
+## [Reasoning](https://github.com/Formal-Methods-Group/governance-reasoning-engine/tree/main/reason)
+
+## [example/1_stakeholder_lying_detect.metta](https://github.com/Formal-Methods-Group/governance-reasoning-engine/blob/main/example/1_stakeholder_lying_detect.metta)
+
+## [example/2_smart_port_example.metta](https://github.com/Formal-Methods-Group/governance-reasoning-engine/blob/main/example/2_smart_port_example.metta)
