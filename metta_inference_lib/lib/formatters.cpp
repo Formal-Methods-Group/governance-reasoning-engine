@@ -159,7 +159,7 @@ std::string PrettyFormatter::format(const Config& config, const Metrics& metrics
     std::ostringstream result;
 
     result << "  " << Color::CYAN << "╔════════════════════════════════════════════╗" << Color::NC << "\n";
-    result << "  " << Color::CYAN << "║          SKY Governance Inference          ║" << Color::NC << "\n";
+    result << "  " << Color::CYAN << "║              Governance Inference          ║" << Color::NC << "\n";
     result << "  " << Color::CYAN << "╚════════════════════════════════════════════╝" << Color::NC << "\n\n";
 
     result << "  " << Color::BOLD << "Example:" << Color::NC << " " << exampleName << "\n";
