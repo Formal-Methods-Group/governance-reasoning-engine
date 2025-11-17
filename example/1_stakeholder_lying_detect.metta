@@ -24,7 +24,7 @@
 ; =================================== ;
 ;
 ; > –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– ;
-;  /Unified Sky Knowledge Representation Framework/                                                            ;
+;  /Unified Knowledge Representation Framework/                                                                ;
 ;                                                                                                              ;
 ;               Statements, incl.                                                                              ;
 ;                                                                                                              ;
@@ -33,7 +33,7 @@
 ;               (3) and (4) Mutually connected Domain Knowledge                                                ;
 ;                                                                                                              ;
 ;               uniformly represented within the massive reification-based                                     ;
-;               Unified Sky Knowledge Representation Framework.                                                ;
+;               Unified Knowledge Representation Framework.                                                    ;
 ;                                                                                                              ;                                                                                                              ;
 ;               The State of Affairs contains then the vessel soa_ALEXANDRA_MAERSK,                            ;
 ;               which moored at soa_berthMICT, the berth at MICT.                                              ;
