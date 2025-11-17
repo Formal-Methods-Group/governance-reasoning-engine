@@ -1,7 +1,7 @@
 
 ; > =================================================================================================================== ;
 ;                                                                                                                       ;
-;   Setting: Smart Port Halo Agent monitors and controls a fully automated                                              ;
+;   Setting: Smart Port Agent monitors and controls a fully automated                                                   ;
 ;   Mundra International Container Terminal (MICT), India's busiest port, and manages its finances externally.          ;
 ;                                                                                                                       ;
 ;   ALEXANDRA MÆRSK, a container vessel operated by A.P. Møller – Mærsk of Denmark, arrives at MICT carrying            ;
@@ -19,7 +19,7 @@
 ;
 ; > ================================= ;
 ;                                     ;
-; // Smart Port Halo Agent case//     ;
+; // Smart Port Agent case//          ;
 ;                                     ;
 ; =================================== ;
 ;
@@ -28,7 +28,7 @@
 ;                                                                                                              ;
 ;               Four statements, incl.                                                                         ;
 ;                                                                                                              ;
-;               (1) Atlas norm                                                                                 ;
+;               (1) Internal norm                                                                              ;
 ;               (2) Real World Environment Limitation                                                          ;
 ;               (3) Real World Regulatory Limitation                                                           ;
 ;               (4) State of Affairs                                                                           ;
@@ -44,7 +44,7 @@
 ; –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– < ;
 ;
 ; > –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– ;
-;  /Atlas regulation for the Smart Port Halo Agent/                                                            ;
+;  /Internal regulation for the Smart Port Agent/                                                              ;
 ;                                                                                                              ;
 ;                (1) Whoever moors at a berth is obliged to pay equivalent of $15000 to                        ;
 ;                    the Smart Port Treasury associated with that berth.                                       ;
