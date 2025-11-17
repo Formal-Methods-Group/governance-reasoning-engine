@@ -1,7 +1,7 @@
 
 ; > =================================================================================================================== ;
 ;                                                                                                                       ;
-;   Setting: Smart Port Halo Agent monitors and controls a fully automated                                              ;
+;   Setting: Smart Port Agent monitors and controls a fully automated                                                   ;
 ;   Mundra International Container Terminal (MICT), India's busiest port, and manages its finances externally.          ;
 ;                                                                                                                       ;
 ;   ALEXANDRA MÆRSK, a container vessel operated by A.P. Møller – Mærsk of Denmark, arrives at MICT carrying            ;
@@ -19,7 +19,7 @@
 ;
 ; > ================================= ;
 ;                                     ;
-; // Smart Port Halo Agent case//     ;
+; // Smart Port Agent case//          ;
 ;                                     ;
 ; =================================== ;
 ;
