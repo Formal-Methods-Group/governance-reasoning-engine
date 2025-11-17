@@ -24,7 +24,7 @@
 ; =================================== ;
 ;
 ; > –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– ;
-;  /Unified Sky Knowledge Representation Framework/                                                            ;
+;  /Unified Knowledge Representation Framework/                                                                ;
 ;                                                                                                              ;
 ;               Four statements, incl.                                                                         ;
 ;                                                                                                              ;
@@ -34,7 +34,7 @@
 ;               (4) State of Affairs                                                                           ;
 ;                                                                                                              ;
 ;               are uniformly represented within the massive reification-based                                 ;
-;               Unified Sky Knowledge Representation Framework.                                                ;
+;               Unified Knowledge Representation Framework.                                                    ;
 ;                                                                                                              ;
 ;               (1), (2), and (3) are formalized as inference rules.                                           ;
 ;                                                                                                              ;
