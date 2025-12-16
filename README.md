@@ -30,7 +30,7 @@ docker run --rm governance-reasoning-engine:latest metta_cli -r /app/example/2_s
 
 ## Road to Gradual Governance Automation. Big picture
 
-<img width="3624" height="7730" alt="__1" src="https://github.com/user-attachments/assets/6e5ed383-9c3e-48b7-aa57-0934a5e58903" />
+<img width="3624" height="7730" alt="scheme 8 10" src="https://github.com/user-attachments/assets/07252fc3-024f-447f-b1c5-38452078c708" />
 
 ## [Knowledge Representation](https://github.com/Formal-Methods-Group/governance-reasoning-engine/tree/main/knowledge)
 
