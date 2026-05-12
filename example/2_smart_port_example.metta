@@ -56,7 +56,7 @@
          (True (ct-triple $e soaHas_agent $v))
          (True (ct-triple $e soaHas_location $b))
          (True (ct-triple $v type soaContainerVessel))
-         (True (ct-triple $m type soa_mooringBerth))
+         (True (ct-triple $b type soa_mooringBerth))
          (True (ct-triple $spt soa_associated-with $b)))
     True))
 
