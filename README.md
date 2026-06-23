@@ -1,4 +1,4 @@
-Unified Governance Knowledge Representation and Reasoning Framework implemented in [MeTTa language for cognitive computations](https://metta-lang.dev/).
+Unified DAO Governance Knowledge Representation and Reasoning Framework implemented in [MeTTa language for cognitive computations](https://metta-lang.dev/).
 
 [Basis](https://www.cambridge.org/core/books/formal-theory-of-commonsense-psychology/20289940AFB026AB3EF31EBCF8875628#fndtn-information): a first-order logical framework for Natural Language Semantics massively grounded on the notion of reification.
 
