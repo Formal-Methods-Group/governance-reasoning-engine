@@ -28,10 +28,6 @@ For 2_smart_port_example.metta example case run
 docker run --rm governance-reasoning-engine:latest metta_cli -r /app/example/2_smart_port_example.metta
 ```
 
-## Road to Gradual Governance Automation. Big picture
-
-![scheme 8 10](https://github.com/user-attachments/assets/eadb6c8a-0a71-4c9a-8134-a27772f4b159)
-
 
 ## [Knowledge Representation](https://github.com/Formal-Methods-Group/governance-reasoning-engine/tree/main/knowledge)
 
